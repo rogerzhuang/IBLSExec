@@ -1,0 +1,2 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,LmtPrice,BasketTag,Account,OrderRef,Algo allowPastEndTime,Algo catchUp,Algo startTime,Algo endTime,Algo strategy,
+BUY,100,TSLA,STK,SMART/AMEX,USD,DAY,LMT,234.39,Basket,U8518146,Basket,true,false,20240109 22:10:48 US/Eastern,20240109 22:11:01 US/Eastern,Twap,

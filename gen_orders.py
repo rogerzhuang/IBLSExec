@@ -51,7 +51,7 @@ def write_orders(orders, filename, order_date, account):
     with open(full_path, 'w') as file:
         file.write(header)
         for order in orders:
-            file.write(','.join(map(str, order)) + ",STK,SMART/AMEX,USD,DAY,MKT,Basket," + account + ",Basket,FALSE,FALSE," + algo_end_time + ",Twap\n")
+            file.write(','.join(map(str, order)) + ",STK,SMART/AMEX,USD,DAY,MKT,Basket," + account + ",Basket,TRUE,FALSE," + algo_end_time + ",Twap\n")
 
 def main():
     load_dotenv()
